@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Menu, X, Coffee } from "lucide-react";
+import { Menu, X } from "lucide-react";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -32,9 +32,6 @@ const Navbar = () => {
       <div className="container-narrow mx-auto px-4 md:px-8">
         <div className="flex items-center justify-between h-14 md:h-16">
           <a href="#hero" className="flex items-center gap-2 group">
-            <div className="w-10 h-10 rounded-full bg-gradient-to-br from-golden to-amber flex items-center justify-center shadow-golden group-hover:scale-110 transition-transform duration-300">
-              <Coffee className="w-5 h-5 text-espresso" />
-            </div>
             <span className="font-serif text-xl md:text-2xl font-bold text-foreground">
               Bangalore <span className="text-gradient">Cafe</span>
             </span>

@@ -1,4 +1,4 @@
-import { Coffee, Instagram, Facebook, Twitter, MapPin, Phone, ArrowUp } from "lucide-react";
+import { Instagram, Facebook, Twitter, MapPin, Phone, ArrowUp } from "lucide-react";
 
 const Footer = () => {
   const scrollToTop = () => {
@@ -14,9 +14,6 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-10 mb-12">
           <div className="md:col-span-2">
             <div className="flex items-center gap-3 mb-6">
-              <div className="w-12 h-12 rounded-full bg-gradient-to-br from-golden to-amber flex items-center justify-center shadow-golden">
-                <Coffee className="w-6 h-6 text-espresso" />
-              </div>
               <span className="font-serif text-2xl font-bold text-cream">
                 Bangalore Cafe
               </span>
