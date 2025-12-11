@@ -7,7 +7,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: process.env.NODE_ENV === "production" ? "/south-indian-caf-demo/" : "/",
+  base: "/",
   server: {
     host: "localhost",
     port: 8080,
